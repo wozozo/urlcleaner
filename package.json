@@ -1,0 +1,22 @@
+{
+  "name": "urlcleaner",
+  "version": "1.0.0",
+  "description": "Clean up trash for URL parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc src/**.ts --outDir dist",
+    "zip": "zip -r urlcleaner.zip dist/ manifest.json",
+    "prepublish": "npm run build && npm run zip"
+  },
+  "author": "Yoichi Fujimoto <wozozo@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "0.0.86",
+    "typescript": "^3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wozozo/urlcleaner.git"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Clean up trash for URL parameters",
+  "version": "1.0",
+  "description": "Clean up trash for URL parameters",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "dist/background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
