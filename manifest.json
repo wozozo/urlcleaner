@@ -1,17 +1,14 @@
 {
-  "name": "Clean up trash for URL parameters",
+  "name": "Remove gabages from URL parameters",
   "version": "1.0",
-  "description": "Clean up trash for URL parameters",
+  "description": "Remove gabages from URL parameters",
   "manifest_version": 2,
   "background": {
-    "scripts": [
-      "dist/background.js"
-    ],
+    "scripts": ["dist/background.js"],
     "persistent": true
   },
-  "permissions": [
-    "webRequest",
-    "webRequestBlocking",
-    "<all_urls>"
-  ]
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "icons": {
+    "128": "images/icon128.png"
+  }
 }
