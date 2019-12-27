@@ -12,7 +12,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     while (i--) {
       if (
         !search[i].match(
-          /^fbclid|^utm_|^fb_action|^fb_source|^action_object_map|^action_type_map|^action_ref_map/
+          /^fbclid|^utm_|^fb_action|^fb_source|^action_object_map|^action_type_map|^action_ref_map|^_s/
         )
       ) {
         params.push(search[i]);
