@@ -1,7 +1,7 @@
 {
   "name": "urlcleaner",
   "version": "1.0.0",
-  "description": "Clean up trash for URL parameters",
+  "description": "Remove gabages from URL parameters",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
